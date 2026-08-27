@@ -3,6 +3,9 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.fontLigatures": true,
+    "editor.fontFamily": "'JetBrains Mono Nerd Font', monospace",
+    "editor.fontSize": 20,
+    "terminal.integrated.fontFamily": "'JetBrains Mono Nerd Font', monospace",
     "prettier.tabWidth": 4,
     "editor.minimap.autohide": "mouseover",
     "security.workspace.trust.startupPrompt": "always",
@@ -18,33 +21,59 @@
     "javascript.preferences.importModuleSpecifierEnding": "minimal",
     "typescript.preferences.importModuleSpecifierEnding": "minimal",
     "editor.codeActionsOnSave": {
-        "source.organizeImports": "explicit"
+        "source.organizeImports": "explicit",
     },
     "codeium.enableCodeLens": false,
     "typescript.preferences.preferTypeOnlyAutoImports": true,
     "editor.suggestSelection": "recentlyUsedByPrefix",
-    "workbench.iconTheme": "catppuccin-mocha",
+    "workbench.iconTheme": "vscode-icons",
     "git.enableSmartCommit": true,
     "codeium.enableConfig": {
         "*": true,
         "fish": true,
-        "qml": true
+        "qml": true,
     },
     "[c]": {
-        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
     },
     "[cpp]": {
-        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
     },
     "doxdocgen.generic.boolReturnsTrueFalse": false,
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "qt-qml.qmlls.additionalImportPaths": ["/usr/lib/qt6/qml"],
     "[python]": {
-        "editor.defaultFormatter": "charliermarsh.ruff"
+        "editor.defaultFormatter": "charliermarsh.ruff",
     },
     "ruff.lineLength": 120,
     "python.languageServer": "Pylance",
     "editor.inlayHints.enabled": "off",
     "qt-qml.qmlls.customExePath": "/usr/bin/qmlls6",
-    "qt-qml.doNotAskForQmllsDownload": true
+    "qt-qml.doNotAskForQmllsDownload": true,
+    "files.autoSave": "afterDelay",
+    "redhat.telemetry.enabled": true,
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash",
+        },
+        "zsh": {
+            "path": "zsh",
+        },
+        "fish": {
+            "path": "/usr/bin/fish",
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux",
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell",
+        },
+        "bash (2)": {
+            "path": "/usr/bin/bash",
+        },
+    },
+    "terminal.integrated.stickyScroll.enabled": false,
 }
